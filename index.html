@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilmar Clavijo | Portafolio</title>
+  <link rel="stylesheet" href="estillos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <header class="navbar">
+  <nav class="contenedor-menu">
+    <ul class="menu">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#portafolio">Portafolio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#logros">Certificados</a></li>
+    </ul>
+  </nav>
+</header>
+
+  </header>
+
+  <section id="inicio" class="seccion inicio">
+  <div class="container-inicio">
+    
+    <div class="contenido-texto">
+      <h1>Hola, soy Wilmar Clavijo </h1>
+      <p>Desarrollador y diseñador web apasionado por la tecnología y la creatividad.</p>
+      
+    </div>
+
+    <div class="contenido-foto">
+      <img src="./img/wilmar.jpeg" alt="Foto de Wilmar">
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="sobremi" class="seccion">
+    <div class="container">
+        <div class="sobremi-grid"></div>
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador comprometido con la creación de soluciones eficientes. Me encanta programar, diseñar y aprender constantemente. Me especializo en Java, bases de datos y diseño de interfaces.</p>
+    </div>
+  </section>
+
+  <section id="habilidades" class="seccion bg-light">
+    <div class="container">
+      <h2>Habilidades</h2>
+      <div class="habilidades-grid">
+        <div><i class="fab fa-java"></i> Java</div>
+        <div><i class="fas fa-database"></i> MySQL</div>
+        <div><i class="fab fa-html5"></i> HTML5</div>
+        <div><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div><i class="fab fa-js-square"></i> JavaScript</div>
+        <div><i class="fab fa-figma"></i> Figma</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portafolio" class="seccion">
+  <div class="container">
+    <h2> Portafolio Profesional</h2>
+
+    <div class="carrusel-con-flechas">
+      <button class="flecha izquierda">◀</button>
+
+      <div class="carrusel-portafolio" id="carrusel">
+        <!-- Proyecto 1 -->
+        <div class="proyecto">
+          <img src="./img/figma.PNG" alt="App supermercado">
+          <h3>Diseño Supermercado </h3>
+          <p>Diseño de escritorio hecho en figma con login, carrito, promociones y perfil.</p>
+          
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="proyecto">
+          <img src="./img/gym.PNG" alt="Sistema gimnasio">
+          <h3>Sistema Gimnasio SENA</h3>
+          <p>Java + MySQL para control de usuarios, inicio de sesion y registro</p>
+          
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="proyecto">
+          <img src="./img/login.PNG" alt="Portafolio web">
+          <h3>Inicio de sesion Funcional</h3>
+          <p>HTML + CSS + Boostrap5 + responsive </p>
+          
+        </div>
+
+        <div class="proyecto">
+          <img src="./img/yo.PNG" alt="Portafolio web">
+          <h3>Portafolio Web</h3>
+          <p>HTML + CSS + responsive + animaciones.</p>
+         
+        </div>
+        <!-- Agrega más proyectos aquí -->
+      </div>
+
+      <button class="flecha derecha">▶</button>
+    </div>
+
+  </div>
+</section>
+      <button class="btn-carrusel" onclick="moverCarrusel(1)">&#10095;</button>
+    </div>
+  </div>
+</section>
+<section id="servicios" class="seccion">
+  <div class="container">
+
+    <h2>Servicios</h2>
+    <div class="servicios-grid">
+      <div class="servicio">
+        
+        <h3>Desarrollo Web</h3>
+        <p>Diseño y programación de páginas modernas y responsive.</p>
+      </div>
+      <div class="servicio">
+        <h3>Sistemas con Java</h3>
+        <p>Aplicaciones de escritorio con bases de datos MySQL.</p>
+      </div>
+      <div class="servicio">
+        <h3>Diseño en Figma</h3>
+        <p>Prototipado visual y diseño UI para apps o webs.</p>
+      </div>
+    </div>
+  </div>
+  <button class="btn-carrusel" onclick="moverCarrusel(1)">&#10095;</button>
+</section>
+
+  <section id="logros" class="seccion">
+  <div class="container">
+    <h2>Certificados</h2>
+    <div class="logros-grid">
+      
+      <div class="logro">
+        <h3>Certificado: Java Developer</h3>
+        <span class="fecha">SENA - 2024</span>
+        <p>Curso intensivo de desarrollo en Java con conexión a bases de datos MySQL.</p>
+        <a href="./pdf/wilmar.pdf" target="_blank" class="btn-certificado">Ver certificado</a>
+      </div>
+
+      
+
+    </div>
+ 
+</section>
+  <footer>
+    
+  <div class="container">
+    <p>&copy; 2025 Wilmar Clavijo | Todos los derechos reservados</p>
+    <div class="redes">
+      <a href="https://wa.me/573153197362" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      
+    </div>
+  </div>
+
+
+  </footer>
+
+
+  <script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+
+  function mostrarSlide(n) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('activo');
+    });
+    slideIndex = (n + slides.length) % slides.length;
+    slides[slideIndex].classList.add('activo');
+  }
+
+  function moverCarrusel(dir) {
+    mostrarSlide(slideIndex + dir);
+  }
+
+  // Mostrar el primer slide
+  mostrarSlide(slideIndex);
+</script>
+
+<script>
+  const carrusel = document.getElementById('carrusel');
+  const btnIzq = document.querySelector('.flecha.izquierda');
+  const btnDer = document.querySelector('.flecha.derecha');
+
+  btnIzq.addEventListener('click', () => {
+    carrusel.scrollBy({ left: -320, behavior: 'smooth' });
+  });
+
+  btnDer.addEventListener('click', () => {
+    carrusel.scrollBy({ left: 320, behavior: 'smooth' });
+  });
+</script>
+
+<script>
+  let scrollPos = 0;
+  const slider1 = document.getElementById("slider");
+
+  function moverSlider(direccion) {
+    const anchoImagen = slider.querySelector("img").offsetWidth + 16; // incluye gap
+    scrollPos += direccion * anchoImagen;
+    slider.scrollTo({
+      left: scrollPos,
+      behavior: "smooth"
+    });
+  }
+</script>
+
+<script>
+  const slider = document.getElementById('slider');
+
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+
+  slider.addEventListener('mousemove', (e) => {
+    if (!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 1.5; // velocidad del scroll
+    slider.scrollLeft = scrollLeft - walk;
+  });
+</script>
+
+</body>
+</html>
